@@ -7,7 +7,7 @@ WaveDrawer::WaveDrawer(Wave& wave_, float const& duration_, int const& nbSample_
 
 void WaveDrawer::draw(sf::RenderTarget& target, sf::RenderStates states) const
 {
-	sf::VertexArray lines = sf::VertexArray(sf::PrimitiveType::LineStrip, 900);
+	sf::VertexArray lines = sf::VertexArray(sf::PrimitiveType::LineStrip, nbSample);
 
 	for (size_t i = 0; i < nbSample; i++)
 	{

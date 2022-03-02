@@ -10,7 +10,7 @@ class Fourrier : public Wave
 public :
 
 	Fourrier();
-	Fourrier(float const& freq, float const& enveloppe, float const& offset);
+	Fourrier(float const& freq, float const& enveloppe, float const& offset = 0);
 	virtual float getValue(float const& time)const;
 
 	//--Modification
