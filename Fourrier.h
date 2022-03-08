@@ -2,10 +2,6 @@
 #include <vector>
 #include "Wave.h"
 
-enum e_FourrierSynth{
-	PIANO
-};
-
 class Fourrier : public Wave
 {
 
@@ -14,8 +10,7 @@ class Fourrier : public Wave
 public :
 
 	Fourrier();
-	Fourrier(e_FourrierSynth instrument,float freq);
-	Fourrier(float const& freq, float const& enveloppe, float const& offset);
+	Fourrier(float const& freq, float const& enveloppe, float const& offset = 0);
 	virtual float getValue(float const& time)const;
 
 	//--Modification

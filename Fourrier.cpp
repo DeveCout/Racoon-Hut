@@ -8,10 +8,6 @@ Fourrier::Fourrier()
 	offset = 0;
 }
 
-Fourrier::Fourrier(e_FourrierSynth instrument, float freq)
-{
-}
-
 Fourrier::Fourrier(float const& freq, float const& enveloppe, float const& offset_) :Wave()
 {
 	vals.push_back(std::pair<float, float>(freq, enveloppe));
