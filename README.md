@@ -1,8 +1,10 @@
 # Racoon-Hut
 
-Racoon hut is a digital audio workstation (DAW) developed by the Mathis Gantelet, known as DeveCout.
+More Information on raccoontree.fr (the website is still in work)
 
-Racoon Hut is developped using C++ and The JUCE library, see here : https://juce.com .
+Racoon hut is a Digital Audio Workstation (DAW) developed by the Mathis Gantelet, known as DeveCout.
+
+Racoon Hut is developped using C++ and the JUCE library, see here : https://juce.com .
 
 Try it and if you like it why not help us ! ^^
 
