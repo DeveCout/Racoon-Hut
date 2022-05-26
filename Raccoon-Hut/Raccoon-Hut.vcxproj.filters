@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Wave">
+      <UniqueIdentifier>{46158230-59ed-4bb2-9565-d543b6e16613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Wave\Basic">
+      <UniqueIdentifier>{9e85a789-1c9e-464a-92ad-6104290accf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Wave\Filter">
+      <UniqueIdentifier>{604b70a3-2f2d-4e58-b5b2-2020789a1b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Wave\Operator">
+      <UniqueIdentifier>{61b119ac-bf84-4efe-aaea-85cb53aa30da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Wave">
+      <UniqueIdentifier>{712818fb-cb79-431f-b568-af21d6a1bf49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Wave\Basic">
+      <UniqueIdentifier>{17dd88d8-0c52-4c9b-a02c-e4a4170833ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Wave\Filter">
+      <UniqueIdentifier>{249ed940-cb62-4866-9b09-4933fe2602bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Wave\Operator">
+      <UniqueIdentifier>{a4710cbe-a8a1-46f5-bf78-5eb66cbbf6f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Wave\Wave.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Graphic\WaveDrawer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Operator\AddWave.cpp">
+      <Filter>Fichiers sources\Wave\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Operator\SubstractWave.cpp">
+      <Filter>Fichiers sources\Wave\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Operator\MultiplyWave.cpp">
+      <Filter>Fichiers sources\Wave\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Basic\Fourrier.cpp">
+      <Filter>Fichiers sources\Wave\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Filter\Filter.cpp">
+      <Filter>Fichiers sources\Wave\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Filter\FilterEnvelope.cpp">
+      <Filter>Fichiers sources\Wave\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Basic\WaveTriangle.cpp">
+      <Filter>Fichiers sources\Wave\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Basic\WaveADSR.cpp">
+      <Filter>Fichiers sources\Wave\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Basic\WaveFlat.cpp">
+      <Filter>Fichiers sources\Wave\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Basic\WaveLine.cpp">
+      <Filter>Fichiers sources\Wave\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Operator\WaveOperator.cpp">
+      <Filter>Fichiers sources\Wave\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Filter\FilterMask.cpp">
+      <Filter>Fichiers sources\Wave\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Filter\FilterMax.cpp">
+      <Filter>Fichiers sources\Wave\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Filter\FilterMin.cpp">
+      <Filter>Fichiers sources\Wave\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Filter\FilterMinMax.cpp">
+      <Filter>Fichiers sources\Wave\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Wave\Basic\Fourrier.h">
+      <Filter>Fichiers d%27en-tête\Wave\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Basic\WaveFlat.h">
+      <Filter>Fichiers d%27en-tête\Wave\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Basic\WaveLine.h">
+      <Filter>Fichiers d%27en-tête\Wave\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Basic\WaveADSR.h">
+      <Filter>Fichiers d%27en-tête\Wave\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Basic\WaveTriangle.h">
+      <Filter>Fichiers d%27en-tête\Wave\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Filter\Filter.h">
+      <Filter>Fichiers d%27en-tête\Wave\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Filter\FilterEnvelope.h">
+      <Filter>Fichiers d%27en-tête\Wave\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Filter\FilterMask.h">
+      <Filter>Fichiers d%27en-tête\Wave\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Filter\FilterMax.h">
+      <Filter>Fichiers d%27en-tête\Wave\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Filter\FilterMin.h">
+      <Filter>Fichiers d%27en-tête\Wave\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Filter\FilterMinMax.h">
+      <Filter>Fichiers d%27en-tête\Wave\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Operator\AddWave.h">
+      <Filter>Fichiers d%27en-tête\Wave\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Operator\WaveOperator.h">
+      <Filter>Fichiers d%27en-tête\Wave\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Operator\SubstractWave.h">
+      <Filter>Fichiers d%27en-tête\Wave\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Operator\MultiplyWave.h">
+      <Filter>Fichiers d%27en-tête\Wave\Operator</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Basic.hpp">
+      <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Filter.hpp">
+      <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Graphic\Graphic.hpp">
+      <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Graphic.hpp">
+      <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Operator.hpp">
+      <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Wave.h">
+      <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Wave.hpp">
+      <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Graphic\WaveDrawer.h">
+      <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
