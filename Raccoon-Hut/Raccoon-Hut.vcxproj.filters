@@ -37,14 +37,20 @@
     <Filter Include="Fichiers sources\Wave\Operator">
       <UniqueIdentifier>{a4710cbe-a8a1-46f5-bf78-5eb66cbbf6f7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Wave\Player">
+      <UniqueIdentifier>{cc49e19c-9409-456c-b473-86a7be98f1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Wave\Graphic">
+      <UniqueIdentifier>{fdcfd6a3-e463-4a19-8907-c65308a48ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Wave\Graphic">
+      <UniqueIdentifier>{aec03008-5029-430f-8ad4-fffa70a458f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Wave\Player">
+      <UniqueIdentifier>{1b46f0b1-33c1-4270-af45-d268f797f2b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Wave\Wave.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Wave\Graphic\WaveDrawer.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="Wave\Operator\AddWave.cpp">
       <Filter>Fichiers sources\Wave\Operator</Filter>
     </ClCompile>
@@ -91,6 +97,27 @@
       <Filter>Fichiers sources\Wave\Filter</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Wave.cpp">
+      <Filter>Fichiers sources\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Graphic\WaveDrawer.cpp">
+      <Filter>Fichiers sources\Wave\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave\Player\WavePlayer.cpp">
+      <Filter>Fichiers sources\Wave\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Instrument.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="InstumentSin.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RtMidi.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmidi_c.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -161,8 +188,26 @@
     <ClInclude Include="Wave\Wave.hpp">
       <Filter>Fichiers d%27en-tête\Wave</Filter>
     </ClInclude>
-    <ClInclude Include="Wave\Graphic\WaveDrawer.h">
+    <ClInclude Include="WavePlayer.hpp">
       <Filter>Fichiers d%27en-tête\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Graphic\WaveDrawer.h">
+      <Filter>Fichiers d%27en-tête\Wave\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave\Player\WavePlayer.h">
+      <Filter>Fichiers d%27en-tête\Wave\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Instrument.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="InstumentSin.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="RtMidi.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmidi_c.h">
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,6 +7,7 @@
 #include "Operator.hpp"
 #include "Filter.hpp"
 #include "Graphic.hpp"
+#include "WavePlayer.hpp"
 #include "Wave.h"
 
 #endif // !RH_WAVE

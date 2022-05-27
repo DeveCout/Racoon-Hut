@@ -1,148 +1,152 @@
 #pragma once
 
-#define C0 16.351
-#define C1 32.703
-#define C2 65.406
-#define C3 130.812
-#define C4 261.625
-#define C5 523.251
-#define C6 1046.502
-#define C7 2093.004
-#define C8 4186.008
-#define C9 8372.016
-#define C10 16744.032
+namespace rh {
 
-#define CS0 17.323
-#define CS1 34.647
-#define CS2 69.295
-#define CS3 138.591
-#define CS4 277.182
-#define CS5 554.365
-#define CS6 1108.730
-#define CS7 2217.460
-#define CS8 4434.920
-#define CS9 8869.840
-#define CS10 17739.680
+	const float C0 = 16.351f;
+	const float C1 = 32.703f;
+	const float C2 = 65.406f;
+	const float C3 = 130.812f;
+	const float C4 = 261.625f;
+	const float C5 = 523.251f;
+	const float C6 = 1046.502f;
+	const float C7 = 2093.004f;
+	const float C8 = 4186.008f;
+	const float C9 = 8372.016f;
+	const float C10 = 16744.032f;
 
-#define D0 18.354
-#define D1 36.708
-#define D2 73.416
-#define D3 146.832
-#define D4 293.664
-#define D5 587.329
-#define D6 1174.059
-#define D7 2344.318
-#define D8 4698.636
-#define D9 9397.272
-#define D10 18794.544
+	const float CS0 = 17.323f;
+	const float CS1 = 34.647f;
+	const float CS2 = 69.295f;
+	const float CS3 = 138.591f;
+	const float CS4 = 277.182f;
+	const float CS5 = 554.365f;
+	const float CS6 = 1108.730f;
+	const float CS7 = 2217.460f;
+	const float CS8 = 4434.920f;
+	const float CS9 = 8869.840f;
+	const float CS10 = 17739.680f;
 
-#define DS0 19.445
-#define DS1 38.890
-#define DS2 77.781
-#define DS3 155.563
-#define DS4 311.126
-#define DS5 622.253
-#define DS6 1244.507
-#define DS7 2489.014
-#define DS8 4978.028
-#define DS9 9956.056
-#define DS10 19912.112
+	const float D0 = 18.354f;
+	const float D1 = 36.708f;
+	const float D2 = 73.416f;
+	const float D3 = 146.832f;
+	const float D4 = 293.664f;
+	const float D5 = 587.329f;
+	const float D6 = 1174.059f;
+	const float D7 = 2344.318f;
+	const float D8 = 4698.636f;
+	const float D9 = 9397.272f;
+	const float D10 = 18794.544f;
 
-#define E0 20.601
-#define E1 41.203
-#define E2 82.406
-#define E3 164.813
-#define E4 329.627
-#define E5 659.255
-#define E6 1318.510
-#define E7 2637.020
-#define E8 5274.040
-#define E9 10548.080
-#define E10 221096.160
+	const float DS0 = 19.445f;
+	const float DS1 = 38.890f;
+	const float DS2 = 77.781f;
+	const float DS3 = 155.563f;
+	const float DS4 = 311.126f;
+	const float DS5 = 622.253f;
+	const float DS6 = 1244.507f;
+	const float DS7 = 2489.014f;
+	const float DS8 = 4978.028f;
+	const float DS9 = 9956.056f;
+	const float DS10 = 19912.112f;
 
-#define F0 21.826
-#define F1 43.653
-#define F2 87.307
-#define F3 174.614
-#define F4 349.228
-#define F5 698.456
-#define F6 1396.912
-#define F7 2793.824
-#define F8 5587.648
-#define F9 11175.296
-#define F10 22350.592
+	const float E0 = 20.601f;
+	const float E1 = 41.203f;
+	const float E2 = 82.406f;
+	const float E3 = 164.813f;
+	const float E4 = 329.627f;
+	const float E5 = 659.255f;
+	const float E6 = 1318.510f;
+	const float E7 = 2637.020f;
+	const float E8 = 5274.040f;
+	const float E9 = 10548.080f;
+	const float E10 = 221096.160f;
 
-#define FS0 23.124
-#define FS1 46.249
-#define FS2 92.498
-#define FS3 184.997
-#define FS4 369.994
-#define FS5 739.988
-#define FS6 1479.976
-#define FS7 2959.952
-#define FS8 5919.904
-#define FS9 11839.808
-#define FS10 23679.616
+	const float F0 = 21.826f;
+	const float F1 = 43.653f;
+	const float F2 = 87.307f;
+	const float F3 = 174.614f;
+	const float F4 = 349.228f;
+	const float F5 = 698.456f;
+	const float F6 = 1396.912f;
+	const float F7 = 2793.824f;
+	const float F8 = 5587.648f;
+	const float F9 = 11175.296f;
+	const float F10 = 22350.592f;
 
-#define G0 24.499
-#define G1 48.999
-#define G2 97.998
-#define G3 195.997
-#define G4 391.995
-#define G5 783.991
-#define G6 1567.982
-#define G7 3135.964
-#define G8 6270.928
-#define G9 12541.856
-#define G10 25083.712
+	const float FS0 = 23.124f;
+	const float FS1 = 46.249f;
+	const float FS2 = 92.498f;
+	const float FS3 = 184.997f;
+	const float FS4 = 369.994f;
+	const float FS5 = 739.988f;
+	const float FS6 = 1479.976f;
+	const float FS7 = 2959.952f;
+	const float FS8 = 5919.904f;
+	const float FS9 = 11839.808f;
+	const float FS10 = 23679.616f;
 
-#define GS0 25.956
-#define GS1 51.913
-#define GS2 103.826
-#define GS3 207.652
-#define GS4 415.304
-#define GS5 830.609
-#define GS6 1661.218
-#define GS7 3322.436
-#define GS8 6644.872
-#define GS9 13289.744
-#define GS10 26579.488
+	const float G0 = 24.499f;
+	const float G1 = 48.999f;
+	const float G2 = 97.998f;
+	const float G3 = 195.997f;
+	const float G4 = 391.995f;
+	const float G5 = 783.991f;
+	const float G6 = 1567.982f;
+	const float G7 = 3135.964f;
+	const float G8 = 6270.928f;
+	const float G9 = 12541.856f;
+	const float G10 = 25083.712f;
 
-#define A0 27.500
-#define A1 55.000
-#define A2 110.000
-#define A3 220.000
-#define A4 440.000
-#define A5 880.000
-#define A6 1760.000
-#define A7 3520.000
-#define A8 7040.000
-#define A9 14080.000
-#define A10 28160.000
+	const float GS0 = 25.956f;
+	const float GS1 = 51.913f;
+	const float GS2 = 103.826f;
+	const float GS3 = 207.652f;
+	const float GS4 = 415.304f;
+	const float GS5 = 830.609f;
+	const float GS6 = 1661.218f;
+	const float GS7 = 3322.436f;
+	const float GS8 = 6644.872f;
+	const float GS9 = 13289.744f;
+	const float GS10 = 26579.488f;
 
-#define AS0 29.135
-#define AS1 58.270
-#define AS2 116.540
-#define AS3 233.081
-#define AS4 466.163
-#define AS5 932.327
-#define AS6 1864.654
-#define AS7 3729.308
-#define AS8 7458.616
-#define AS9 14917.232
-#define AS10 29834.464
+	const float A0 = 27.500f;
+	const float A1 = 55.000f;
+	const float A2 = 110.000f;
+	const float A3 = 220.000f;
+	const float A4 = 440.000f;
+	const float A5 = 880.000f;
+	const float A6 = 1760.000f;
+	const float A7 = 3520.000f;
+	const float A8 = 7040.000f;
+	const float A9 = 14080.000f;
+	const float A10 = 28160.000f;
 
-#define B0 30.867
-#define B1 61.735
-#define B2 123.470
-#define B3 246.941
-#define B4 493.883
-#define B5 987.766
-#define B6 1975.532
-#define B7 3951.064
-#define B8 7902.128
-#define B9 15804.256
-#define B10 31608.512
+	const float AS0 = 29.135f;
+	const float AS1 = 58.270f;
+	const float AS2 = 116.540f;
+	const float AS3 = 233.081f;
+	const float AS4 = 466.163f;
+	const float AS5 = 932.327f;
+	const float AS6 = 1864.654f;
+	const float AS7 = 3729.308f;
+	const float AS8 = 7458.616f;
+	const float AS9 = 14917.232f;
+	const float AS10 = 29834.464f;
+	
+	const float B0 = 30.867f;
+	const float B1 = 61.735f;
+	const float B2 = 123.470f;
+	const float B3 = 246.941f;
+	const float B4 = 493.883f;
+	const float B5 = 987.766f;
+	const float B6 = 1975.532f;
+	const float B7 = 3951.064f;
+	const float B8 = 7902.128f;
+	const float B9 = 15804.256f;
+	const float B10 = 31608.512f;
+
+}
 
 class Wave
 {
